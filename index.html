@@ -1,505 +1,322 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Bazinger</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/all.min.css">
-    <link rel="stylesheet" href="css/slick.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
-
 <body>
-    <!-- =======================================
-                heading part start
-    ===========================================-->
-    <nav id="nav">
-        <div class="container">
-            <div class="nav_row">
-                <div class="nav_logo">
-                    <img src="images/logo.png" alt="logo">
-                </div>
-                <div class="nav_menu">
-                    <ul>
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">features</a></li>
-                        <li><a href="#">gallery</a></li>
-                        <li><a href="#">video</a></li>
-                        <li><a href="#">prices</a></li>
-                        <li><a href="#">testimonials</a></li>
-                        <li><a href="#">download</a></li>
-                        <li><a href="#">contact</a></li>
-                    </ul>
-                </div>
+
+    <!-- ===============================================
+                        menu part start
+    ==================================================-->
+    <nav id="menu">
+        <div class="container menu_bg">
+            <div class="logo">
+                <a href="#"><img src="images/Bazinger.png" alt=""></a>
+            </div>
+            <div class="main_menu">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Features</a></li>
+                    <li><a href="#">Gallery</a></li>
+                    <li><a href="#">Video</a></li>
+                    <li><a href="#">PriceS</a></li>
+                    <li><a href="#">Testimonials</a></li>
+                    <li><a href="#">DOWNLOAD</a></li>
+                    <li><a href="#">CONTACT</a></li>
+                </ul>
             </div>
         </div>
     </nav>
-    <!-- =======================================
-                heading part end
-    ===========================================-->
-
-    <!-- =======================================
-                banner part start
-    ===========================================-->
+    <!-- ===============================================
+                        menu part end
+    ==================================================-->
+    <!-- ===============================================
+                        banner part start
+    ==================================================-->
     <section id="banner">
-        <div class="slide">
-            <div class="slide_1" style="background: url(images/banner.jpg) no-repeat center/cover;">
-                <div class="container">
-                    <div class="banner_row">
-                        <div class="banner_text">
-                            <h1>Simple, Beautiful <span>and Amazing</span></h1>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc eget nunc vitae tellus
-                                luctus
-                                <span>ullamcorper. Nam porttitor ullamcorper felis at convallis. Aenean ornare
-                                    vestibulum
-                                    nisi</span> fringilla lacinia. Nullam pulvinar sollicitudin velit id laoreet.
-                                Quisque
-                                non
-                                rhoncus sem.</p>
-                            <div class="button">
-                                <a href="#">download</a>
-                                <a href="#">learn more</a>
-                            </div>
-                            <div class="but">
-                                <h4>Aavailable on :</h4>
-                                <a href="#"><i class="fab fa-apple"></i></a>
-                                <a href="#"><i class="fab fa-android"></i></a>
-                            </div>
-                        </div>
-                    </div>
+        <div class="container">
+            <div class="banner_text">
+                <h1>Simple, Beautiful and Amazing</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc eget nunc vitae tellus luctus ullamcorper. Nam porttitor ullamcorper felis at convallis. Aenean ornare vestibulum nisi fringilla lacinia. Nullam pulvinar sollicitudin velit id laoreet. Quisque non rhoncus sem.</p>
+                <a href="#">DOWNLOAD</a>
+                <a class="bg" href="#">LEARN MORE</a>
+                <h3>Aavailable on :</h3>
+                <!-- <i class="fab fa-apple"></i> -->
+                <div class="ban_logo">
+                    <img src="images/logo_-img.png" alt="">
+                </div>
+                <div class="ban_logo">
+                    <img src="images/logo_-img.png" alt="">
                 </div>
             </div>
-
-            <div class="slide_1" style="background: url(images/banner_1.jpg) no-repeat center/cover;">
-                <div class="container">
-                    <div class="banner_row">
-                        <div class="banner_text">
-                            <h1>Simple, Beautiful <span>and Amazing</span></h1>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc eget nunc vitae tellus
-                                luctus
-                                <span>ullamcorper. Nam porttitor ullamcorper felis at convallis. Aenean ornare
-                                    vestibulum
-                                    nisi</span> fringilla lacinia. Nullam pulvinar sollicitudin velit id laoreet.
-                                Quisque
-                                non
-                                rhoncus sem.</p>
-                            <div class="button">
-                                <a href="#">download</a>
-                                <a href="#">learn more</a>
-                            </div>
-                            <div class="but">
-                                <h4>Aavailable on :</h4>
-                                <a href="#"><i class="fab fa-apple"></i></a>
-                                <a href="#"><i class="fab fa-android"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="slide_1" style="background: url(images/banner_2.jpg) no-repeat center/cover;">
-                <div class="container">
-                    <div class="banner_row">
-                        <div class="banner_text">
-                            <h1>Simple, Beautiful <span>and Amazing</span></h1>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc eget nunc vitae tellus
-                                luctus
-                                <span>ullamcorper. Nam porttitor ullamcorper felis at convallis. Aenean ornare
-                                    vestibulum
-                                    nisi</span> fringilla lacinia. Nullam pulvinar sollicitudin velit id laoreet.
-                                Quisque non
-                                rhoncus sem.</p>
-                            <div class="button">
-                                <a href="#">download</a>
-                                <a href="#">learn more</a>
-                            </div>
-                            <div class="but">
-                                <h4>Aavailable on :</h4>
-                                <a href="#"><i class="fab fa-apple"></i></a>
-                                <a href="#"><i class="fab fa-android"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="slide_1" style="background: url(images/banner_3.jpg) no-repeat center/cover;">
-                <div class="container">
-                    <div class="banner_row">
-                        <div class="banner_text">
-                            <h1>Simple, Beautiful <span>and Amazing</span></h1>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc eget nunc vitae tellus
-                                luctus
-                                <span>ullamcorper. Nam porttitor ullamcorper felis at convallis. Aenean ornare
-                                    vestibulum
-                                    nisi</span> fringilla lacinia. Nullam pulvinar sollicitudin velit id laoreet.
-                                Quisque
-                                non
-                                rhoncus sem.</p>
-                            <div class="button">
-                                <a href="#">download</a>
-                                <a href="#">learn more</a>
-                            </div>
-                            <div class="but">
-                                <h4>Aavailable on :</h4>
-                                <a href="#"><i class="fab fa-apple"></i></a>
-                                <a href="#"><i class="fab fa-android"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="slide_1" style="background: url(images/bio.jpg) no-repeat center/cover;">
-                <div class="container">
-                    <div class="banner_row">
-                        <div class="banner_text">
-                            <h1>Simple, Beautiful <span>and Amazing</span></h1>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc eget nunc vitae tellus
-                                luctus
-                                <span>ullamcorper. Nam porttitor ullamcorper felis at convallis. Aenean ornare
-                                    vestibulum
-                                    nisi</span> fringilla lacinia. Nullam pulvinar sollicitudin velit id laoreet.
-                                Quisque
-                                non
-                                rhoncus sem.</p>
-                            <div class="button">
-                                <a href="#">download</a>
-                                <a href="#">learn more</a>
-                            </div>
-                            <div class="but">
-                                <h4>Aavailable on :</h4>
-                                <a href="#"><i class="fab fa-apple"></i></a>
-                                <a href="#"><i class="fab fa-android"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+            <div class="clr"></div>
         </div>
     </section>
-    <!-- =======================================
-                banner part end
-    ===========================================-->
-
-    <!-- =======================================
-                service part start
-    ===========================================-->
-    <section id="service">
-        <div class="container center">
-            <div class="common_head">
-                <h2>summarise the features</h2>
+    <!-- ===============================================
+                        banner part end
+    ==================================================-->
+    <!-- ===============================================
+                        features part start
+    ==================================================-->
+    <section id="features">
+        <div class="container">
+            <div class="common_tittle">
+                <h3>summarise the features</h3>
                 <p>summarise what your product is all about </p>
             </div>
-            <div class="ser_row">
-                <div class="ser_col">
-                    <a href="#"><i class="fas fa-layer-group"></i></a>
+            <div class="feat_row">
+                <div class="fear_col">
+                    <div class="fear_img">
+                        <a href="#"><img src="images/fear-1.png" alt=""></a>
+                    </div>
                     <h4>Attractive Layout</h4>
-                    <p>Nunc cursus libero purus ac congue arcu cursus ut sed vitae pulvinar massa idporta nequetiam
-                        elerisque mi id faucibus iaculis vitae pulvinar.</p>
+                    <p>Nunc cursus libero purus ac congue arcu cursus ut sed vitae pulvinar massa idporta nequetiam elerisque mi id faucibus iaculis vitae pulvinar.</p>
                 </div>
-
-                <div class="ser_col">
-                    <a href="#"><i class="fas fa-mobile-alt"></i></a>
+                <div class="fear_col">
+                    <div class="fear_img">
+                        <a href="#"><img src="images/fear-1.png" alt=""></a>
+                    </div>
                     <h4>Attractive Layout</h4>
-                    <p>Nunc cursus libero purus ac congue arcu cursus ut sed vitae pulvinar massa idporta nequetiam
-                        elerisque mi id faucibus iaculis vitae pulvinar.</p>
+                    <p>Nunc cursus libero purus ac congue arcu cursus ut sed vitae pulvinar massa idporta nequetiam elerisque mi id faucibus iaculis vitae pulvinar.</p>
                 </div>
-
-                <div class="ser_col">
-                    <a href="#"><i class="fas fa-comments"></i></a>
+                <div class="fear_col">
+                    <div class="fear_img">
+                        <a href="#"><img src="images/fear-1.png" alt=""></a>
+                    </div>
                     <h4>Attractive Layout</h4>
-                    <p>Nunc cursus libero purus ac congue arcu cursus ut sed vitae pulvinar massa idporta nequetiam
-                        elerisque mi id faucibus iaculis vitae pulvinar.</p>
+                    <p>Nunc cursus libero purus ac congue arcu cursus ut sed vitae pulvinar massa idporta nequetiam elerisque mi id faucibus iaculis vitae pulvinar.</p>
                 </div>
-
-                <div class="ser_col">
-                    <a href="#"><i class="far fa-comment-alt"></i></a>
+                <div class="fear_col">
+                    <div class="fear_img">
+                        <a href="#"><img src="images/fear-1.png" alt=""></a>
+                    </div>
                     <h4>Attractive Layout</h4>
-                    <p>Nunc cursus libero purus ac congue arcu cursus ut sed vitae pulvinar massa idporta nequetiam
-                        elerisque mi id faucibus iaculis vitae pulvinar.</p>
+                    <p>Nunc cursus libero purus ac congue arcu cursus ut sed vitae pulvinar massa idporta nequetiam elerisque mi id faucibus iaculis vitae pulvinar.</p>
                 </div>
+                <div class="clr"></div>
             </div>
         </div>
     </section>
-    <!-- =======================================
-                service part end
-    ===========================================-->
-
-    <!-- =======================================
-                gallery part start
-    ===========================================-->
+    <!-- ===============================================
+                        features part end
+    ==================================================-->
+    <!-- ===============================================
+                        gallery part start
+    ==================================================-->
     <section id="gallery">
-        <div class="container center">
-            <div class="common_head">
-                <h2>summarise the features</h2>
+        <div class="container">
+            <div class="common_tittle">
+                <h3>show the gallery</h3>
                 <p>summarise what your product is all about </p>
             </div>
             <div class="gall_row">
                 <div class="gall_col">
-                    <div class="gall_box">
-                        <img src="images/gall.png" alt="gall">
-                        <p>SCREEN SHOT #1</p>
+                    <div class="text">
+                        <h4>SCREEN SHOT #1</h4>
                     </div>
-                    <div class="gall_text">
-                        <p>Nunc cursus libero purus ac congue <span> arcu cursus ut sed vitae pulvinar massa</span>
-                            idporta nequetiam
-                            elerisque mi id <span>faucibus iaculis vitae pulvinar.</span></p>
-                    </div>
+                    <p>Nunc cursus libero purus ac congue arcu cursus ut sed vitae pulvinar massa idporta nequetiam elerisque mi id faucibus iaculis vitae pulvinar.</p>
                 </div>
-
                 <div class="gall_col">
-                    <div class="gall_box">
-                        <img src="images/gall.png" alt="gall">
-                        <p>SCREEN SHOT #1</p>
+                    <div class="text">
+                        <h4>SCREEN SHOT #1</h4>
                     </div>
-                    <div class="gall_text">
-                        <p>Nunc cursus libero purus ac congue <span> arcu cursus ut sed vitae pulvinar massa</span>
-                            idporta nequetiam
-                            elerisque mi id <span>faucibus iaculis vitae pulvinar.</span></p>
-                    </div>
+                    <p>Nunc cursus libero purus ac congue arcu cursus ut sed vitae pulvinar massa idporta nequetiam elerisque mi id faucibus iaculis vitae pulvinar.</p>
                 </div>
-
                 <div class="gall_col">
-                    <div class="gall_box">
-                        <img src="images/gall.png" alt="gall">
-                        <p>SCREEN SHOT #1</p>
+                    <div class="text">
+                        <h4>SCREEN SHOT #1</h4>
                     </div>
-                    <div class="gall_text">
-                        <p>Nunc cursus libero purus ac congue <span> arcu cursus ut sed vitae pulvinar massa</span>
-                            idporta nequetiam
-                            elerisque mi id <span>faucibus iaculis vitae pulvinar.</span></p>
-                    </div>
+                    <p>Nunc cursus libero purus ac congue arcu cursus ut sed vitae pulvinar massa idporta nequetiam elerisque mi id faucibus iaculis vitae pulvinar.</p>
                 </div>
-
                 <div class="gall_col">
-                    <div class="gall_box">
-                        <img src="images/gall.png" alt="gall">
-                        <p>SCREEN SHOT #1</p>
+                    <div class="text">
+                        <h4>SCREEN SHOT #1</h4>
                     </div>
-                    <div class="gall_text">
-                        <p>Nunc cursus libero purus ac congue <span> arcu cursus ut sed vitae pulvinar massa</span>
-                            idporta nequetiam
-                            elerisque mi id <span>faucibus iaculis vitae pulvinar.</span></p>
-                    </div>
+                    <p>Nunc cursus libero purus ac congue arcu cursus ut sed vitae pulvinar massa idporta nequetiam elerisque mi id faucibus iaculis vitae pulvinar.</p>
                 </div>
+                <div class="clr"></div>
             </div>
         </div>
     </section>
-    <!-- =======================================
-                gallery part end
-    ===========================================-->
-
-    <!-- =======================================
-                watch part start
-    ===========================================-->
-    <section id="watch">
+    <!-- ===============================================
+                        gallery part end
+    ==================================================-->
+    <!-- ===============================================
+                        banner_text part start
+    ==================================================-->
+    <section id="ban_text">
         <div class="container">
-            <div class="watch_text">
-                <h2>Watch the best Technology in <span>Action</span></h2>
-
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc eget nunc vitae tellus <span>luctus
-                        ullamcorper.
-                        Nam porttitor ullamcorper felis at convallis. Aenean ornare ves-</span> tibulum nisi fringilla
-                    lacinia. Nullam
-                    pulvinar sollicitudin velit id laoreet. Quisque <span> non rhoncus sem.</span>
-                </p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc eget nunc vitae tellus <span>luctus
-                        ullamcorper.
-                        Nam porttitor ullamcorper felis at convallis. Aenean ornare ves-</span> tibulum nisi fringilla
-                    lacinia. Nullam
-                    pulvinar sollicitudin velit id laoreet. Quisque <span> non rhoncus sem.</span></p>
+            <div class="bann_text">
+                <h5>Watch the best Technology in <a href="#">Action</a></h5>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc eget nunc vitae tellus luctus ullamcorper. Nam porttitor ullamcorper felis at convallis. Aenean ornare vestibulum nisi fringilla lacinia. Nullam pulvinar sollicitudin velit id laoreet. Quisque non rhoncus sem.
+                    <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc eget nunc vitae tellus luctus ullamcorper. Nam porttitor ullamcorper felis at convallis. Aenean ornare vestibulum nisi fringilla lacinia. Nullam pulvinar sollicitudin velit id laoreet. Quisque non rhoncus sem.</span></p>
             </div>
+            <div class="clr"></div>
         </div>
     </section>
-    <!-- =======================================
-                watch part end
-    ===========================================-->
-
-    <!-- =======================================
-                price part start
-    ===========================================-->
-    <section id="price">
-        <div class="container center">
-            <div class="common_head">
-                <h2>summarise the features</h2>
+    <!-- ===============================================
+                        banner_text part end
+    ==================================================-->
+    <!-- ===============================================
+                        menu part start
+    ==================================================-->
+    <!-- ===============================================
+                        peice part end
+    ==================================================-->
+    <section id="perice">
+        <div class="container">
+            <div class="common_tittle">
+                <h3>choose your price</h3>
                 <p>summarise what your product is all about </p>
             </div>
-            <div class="price_row">
-                <div class="price_col">
-                    <div class="pack_1">
-                        <p>basic package</p>
+            <div class="pri_row">
+                <div class="pri_col">
+                    <div class="tittle">
+                        <h4>basic package</h4>
                     </div>
-                    <div class="pack_2">
+                    <div class="dollar">
                         <h3>20$</h3>
                     </div>
-                    <div class="pack_all">
-                        <p>Nullam suscipit vitae</p>
+                    <div class="text_all">
+                        <ul>
+                            <li><h3>Nullam suscipit vitae</h3></li>
+                            <li><h3>Etiam faucibus</h3></li>
+                            <li><h3>Vivamus viverra</h3></li>
+                        </ul>
                     </div>
-                    <div class="pack_all">
-                        <p>Etiam faucibus</p>
-                    </div>
-                    <div class="pack_all">
-                        <p>Vivamus viverra</p>
-                    </div>
-                    <div class="butt">
+                    <div class="bauton">
                         <a href="#">PURCHASE</a>
                     </div>
                 </div>
-
-                <div class="price_col">
-                    <div class="pack_1">
-                        <p>professional package</p>
+                <div class="pri_col">
+                    <div class="tittle">
+                        <h4>basic package</h4>
                     </div>
-                    <div class="pack_2">
-                        <h3>25$</h3>
+                    <div class="dollar">
+                        <h3>20$</h3>
                     </div>
-                    <div class="pack_all">
-                        <p>Nullam suscipit vitae</p>
+                    <div class="text_all">
+                        <ul>
+                            <li><h3>Nullam suscipit vitae</h3></li>
+                            <li><h3>Etiam faucibus</h3></li>
+                            <li><h3>Vivamus viverra</h3></li>
+                        </ul>
                     </div>
-                    <div class="pack_all">
-                        <p>Etiam faucibus</p>
-                    </div>
-                    <div class="pack_all">
-                        <p>Vivamus viverra</p>
-                    </div>
-                    <div class="butt">
+                    <div class="bauton">
                         <a href="#">PURCHASE</a>
                     </div>
                 </div>
-
-                <div class="price_col">
-                    <div class="pack_1">
-                        <p>Advanced package</p>
+                <div class="pri_col">
+                    <div class="tittle">
+                        <h4>basic package</h4>
                     </div>
-                    <div class="pack_2">
-                        <h3>30$</h3>
+                    <div class="dollar">
+                        <h3>20$</h3>
                     </div>
-                    <div class="pack_all">
-                        <p>Nullam suscipit vitae</p>
+                    <div class="text_all">
+                        <ul>
+                            <li><h3>Nullam suscipit vitae</h3></li>
+                            <li><h3>Etiam faucibus</h3></li>
+                            <li><h3>Vivamus viverra</h3></li>
+                        </ul>
                     </div>
-                    <div class="pack_all">
-                        <p>Etiam faucibus</p>
-                    </div>
-                    <div class="pack_all">
-                        <p>Vivamus viverra</p>
-                    </div>
-                    <div class="butt">
+                    <div class="bauton">
                         <a href="#">PURCHASE</a>
+                    </div>
+                </div>
+                <div class="clr"></div>
+            </div>
+        </div>
+    </section>
+    <!-- ===============================================
+                        price part start
+    ==================================================-->
+    <!-- ===============================================
+                        Testimonials part end
+    ==================================================-->
+    <section id="testmonial">
+        <div class="container">
+            <div class="common_tittle">
+                <h3>choose your price</h3>
+            </div>
+            <div class="test_row">
+                <div class="test_col">
+                    <div class="test_main">
+                       <div class="img">
+                        <img src="images/test_logo.png" alt="">
+                       </div>
+                       <div class="text2">
+                           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                            Praesent lobortis lectus eget libero blandit venenatis. 
+                            In blandit tortor vel congue malesuada. Suspendisse 
+                            molestie lobortis lorem dignissim pretium.</p>
+                            <h6>John Doe <br> from some company</h6>
+                       </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-    <!-- =======================================
-                price part end
-    ===========================================-->
-
-    <!-- =======================================
-                testimonial start
-    ===========================================-->
-    <section id="test">
-        <div class="common_head center">
-            <h2>Testimonials</h2>
-        </div>
-        <div class="test_row">
-            <div class="test_img">
-                <img src="images/test.png" alt="test">
+    <!-- ===============================================
+                        Testimonials part start
+    ==================================================-->
+    <!-- ===============================================
+                        apps part end
+    ==================================================-->
+    <section id="apps">
+        <div class="container">
+            <div class="head_text">
+                <h2>Do you Like this app?</h2>
             </div>
-            <div class="test_text">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    <span>Praesent lobortis lectus eget libero blandit venenatis.</span>
-                    In blandit tortor vel congue malesuada. Suspendisse
-                    <span>molestie lobortis lorem dignissim pretium.</span>
-                </p>
-
-                <h6>John Doe <br> from some company</h6>
+            <div class="btn">
+                <a href="#"><h4>DOWNLOAD NOW</h4></a>
             </div>
         </div>
     </section>
-    <!-- =======================================
-                testimonial end
-    ===========================================-->
-
-    <!-- =======================================
-                rate part start
-    ===========================================-->
-    <section id="rate">
-        <div class="rate_text center">
-            <h3>Do you Like this app?</h3>
-            <a href="#">DOWNLOAD NOW</a>
-        </div>
-    </section>
-    <!-- =======================================
-                rate part end
-    =========================================== -->
-
-    <!-- =======================================
-                form part start
-    ===========================================-->
-    <section id="form">
+    <!-- ===============================================
+                        apps part start
+    ==================================================-->
+    <!-- ===============================================
+                        footer part end
+    ==================================================-->
+    <section id="form" style="background: url(images/footer_banner.jpg)fixed no-repeat center/cover;">
         <div class="form_row">
-            <h3>Contact</h3>
+            <h2>Contact</h2>
             <form>
-                <input type="text" placeholder="Your name" id="fname">
-                <div id="fname_err"></div>
-
-                <input type="text" placeholder="Your email" id="email">
-                <div id="email_err"></div>
-
-                <input type="text" placeholder="Subject" id="sub">
-                <div id="sub_err"></div>
-
-                <input type="text" placeholder="Massage" id="massage">
-                <div id="massage_err"></div>
-
-                <button onclick="return form_valid()">Send</button>
+                <input type="text" placeholder="Your Name">
+                <input type="text" placeholder="Your Name">
+                <input type="text" placeholder="Your Name">
+                <textarea name="" id="" cols="31" rows="9" placeholder="Massage"></textarea>
+                <button>Send</button>
             </form>
         </div>
     </section>
-
-
-    <div class="top">
-        <i class="fas fa-chevron-up"></i>
-    </div>
-
-    <script src="js/jquery-3.6.0.min.js"></script>
-
-    <script src="js/script.js"></script>
-    <!-- =======================================
-                form part end
-    ===========================================-->
-
-    <!-- =======================================
-                footer part start
-    ===========================================-->
-    <footer id="foot">
+    <!-- ===============================================
+                        footer part end
+    ==================================================-->
+    <!-- ===============================================
+                        footer part end
+    ==================================================-->
+    <footer id="footer">
         <div class="container">
-            <div class="foot_text">
-                <p>Copyright © 2013 | bazinger | All Rights Reserved</p>
-                <p>Terms of Service | Privacy Policy</p>
+            <div class="footer_row">
+                <div class="footer_text">
+                    <p>Copyright © 2013 | bazinger | All Rights Reserved</p>
+                </div>
+                <div class="footer_text">
+                    <p>Copyright © 2013 | bazinger | All Rights Reserved</p>
+                </div>
             </div>
         </div>
     </footer>
-    <!-- =======================================
-                footer part end
-    ===========================================-->
-
-
-    <!-- =======================================
-                javscript start
-    ===========================================-->
-    <script src="js/jquery-3.6.0.min.js"></script>
-    <script src="js/slick.min.js"></script>
-    <script src="js/script.js"></script>
-
-
-    <!-- =======================================
-                javascript end
-    ===========================================-->
-
+    <!-- ===============================================
+                        footer part end
+    ==================================================-->
 </body>
-
 </html>
